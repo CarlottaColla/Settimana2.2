@@ -12,14 +12,18 @@ namespace AccountBanca
         public string NomeBanca { get; set; }
         public double Saldo { get; set; } = 0.0;
         public DateTime UltimaOperazione { get; set; }
+
+        //Salvo lo storico di tutti i movimenti
         public List<IMovement> Movimenti = new List<IMovement>();
 
         //Costruttori
         public Account(string banca, string numero)
         {
-            //Il saldo iniziale è 0.0
-            NomeBanca = banca;
             NumeroConto = numero;
+            NomeBanca = banca;
+            //Il saldo iniziale è 0.0
+            //La data dell'ultima operazione viene settata con il valore di default
+            //La lista di movimenti è vuota
         }
 
 
@@ -35,20 +39,13 @@ namespace AccountBanca
 
         public static Account operator -(Account account, IMovement movimento)
         {
-            //Il saldo non può andare in negativo
-            if (account.Saldo - movimento.Importo >= 0)
-            {
-                account.Saldo -= movimento.Importo;
-                //Lo aggiungo con il meno davanti
-                movimento.Importo *= (-1);
-                account.Movimenti.Add(movimento);
-                account.UltimaOperazione = movimento.DataMovimento;
-                Console.WriteLine("Prelievo effettuato con successo");
-            }
-            else
-            {
-                Console.WriteLine($"Impossibile prelevare {movimento.Importo} euro, saldo non disponibile");
-            }
+            //Il saldo può andare in negativo
+            account.Saldo -= movimento.Importo;
+            //Lo aggiungo con il meno davanti perchè è un prelievo
+            movimento.Importo *= (-1);
+            account.Movimenti.Add(movimento);
+            account.UltimaOperazione = movimento.DataMovimento;
+            Console.WriteLine("Prelievo effettuato con successo");
             return account;
         }
 
@@ -72,7 +69,5 @@ namespace AccountBanca
                 }
             }
         }
-
-
     }
 }

@@ -51,6 +51,7 @@ namespace AccountBanca.MenuUtente
                 //Stampa il resconto
                 Console.WriteLine("\nResoconto delle operazioni:");
                 account.Statement();
+                //L'utente può decidere di effettuare altre operazioni o chiudere l'applicazione
                 Console.WriteLine("\nPremi q per uscire, altrimenti continua");
                 esci = Console.ReadLine();
             } while (esci != "q");
