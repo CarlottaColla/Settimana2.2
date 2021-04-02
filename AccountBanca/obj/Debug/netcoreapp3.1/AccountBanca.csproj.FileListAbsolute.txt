@@ -1,0 +1,13 @@
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.exe
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.deps.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.runtimeconfig.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.runtimeconfig.dev.json
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\bin\Debug\netcoreapp3.1\AccountBanca.pdb
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.csprojAssemblyReference.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.AssemblyInfoInputs.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.AssemblyInfo.cs
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.csproj.CoreCompileInputs.cache
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.dll
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.pdb
+C:\Users\carlotta.colla\Documents\Esami\Settimana2.2\AccountBanca\AccountBanca\obj\Debug\netcoreapp3.1\AccountBanca.genruntimeconfig.cache
